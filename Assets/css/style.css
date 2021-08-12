@@ -1,0 +1,80 @@
+*{
+    font-family: 'VT323', monospace;
+}
+
+body {
+    font-family: 'VT323', monospace;
+    background-color: black;
+    color: white;
+    font-size: 30px;    
+}
+
+.score{
+    float:right;
+    
+}
+
+.time{
+    float:left;
+    
+}
+
+#nav {
+    display:inline-block;
+    width: 98vw;
+    margin: 6px;
+}
+
+#start-container {
+    text-align: center;
+}
+
+a{ 
+    text-decoration: none;
+}
+
+button {
+    background-color:white;
+    color: rgb(90, 81, 81);
+    border-radius: 12px;
+    padding: 12px 28px;
+    margin: 10px;
+    font-size: 20px;
+
+}
+
+button:hover {
+    background-color:lightblue;
+
+}
+
+#quiz {
+    text-align: center;
+}
+
+/* Media Query */
+@media only screen and (max-width: 600px) {
+    .score {
+        display: flex;
+        flex-direction:column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    .time {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+
+    #start-container{
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+    }
+
+
+}
