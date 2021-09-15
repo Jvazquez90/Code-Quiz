@@ -1,28 +1,28 @@
 // Questions and Answers
 var questions = [{
-    title: "What was the first home console?",
-    choices: ["NES", "Sega Genisis", "Atari 2600", "Oddessy"],
-    answer: "Oddessy"
+    title: "What does HTML stand for?",
+    choices: ["HighText Machine Language", "HyperText and Links Markup Language", "HyperText Markup Language", "None Of The Above"],
+    answer: "HyperText Markup Language"
 },
 {
-    title: "NES was short for?",
-    choices: ["Never Ending Simulation","Nintendo Entertainment System", "New Enterprise System","New Era System"],
-    answer: "Nintendo Entertainment System"
+    title: "What tag can be used for a line-break in HTML",
+    choices: ["< br >","< a >", "< b >","< break >"],
+    answer: "< br >"
 },
 {
-    title: "What animal was Sonic originally supposed to be?",
-    choices: ["A Rabbit", "A Lemur", "An Armadillo", "A Monkey"],
-    answer: "A Rabbit"
+    title: "What does CSS Stand for?",
+    choices: ["Color and Style Sheets", "Cascading Style Sheets", "Cascade Style Sheet", "None Of The Above"],
+    answer: "Cascading Style Sheets"
 },
 {
-    title: "The man who founded Atari also founded a something for kids. What was it?",
-    choices: ["The Frisbee", "Chunk E. Cheese", "The Funplex", "Dave and Buster"],
-    answer: "Chunk E. Cheese"
+    title: "In HTML what is used to define an internal stylesheet?",
+    choices: ["< style >", "< script >", "style", "< link >"],
+    answer: "< link >"
 },
 {
-    title:" What Was The Gamecube's Development Codename?",
-    choices: ["Revolution","Nintendo 128", "Dolphin", "Cube"],
-    answer: "Dolphin"
+    title:" How would you write 'Hello World' in javascript?",
+    choices: ["document.write('Hello World')","println ('Hello World')", "response.write('Hello World')", "System.out.println('Hello World')"],
+    answer: "document.write('Hello World')"
 }]
 
 // Scores and Timers 
