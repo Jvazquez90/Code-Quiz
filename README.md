@@ -11,3 +11,8 @@ How to Play:
     When the game is over
     You can save your initials and score
 ````
+
+Click to play:
+https://jvazquez90.github.io/Code-Quiz/
+
+![Code-Quiz](Assets/Images/ScreenShot.png)
